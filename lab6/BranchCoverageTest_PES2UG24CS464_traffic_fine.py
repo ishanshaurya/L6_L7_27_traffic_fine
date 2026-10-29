@@ -1,6 +1,10 @@
 import pytest
 from traffic_fine import speeding_fine, license_action, total_penalty
 
+# Lab 6 - Branch Coverage test cases
+# SRN: PES2UG24CS464 Name: SHAURYA ISHAN
+# Goal: take every True/False outcome of every decision in traffic_fine.py.
+
 
 def test_no_speeding():
     assert speeding_fine(50, 60, "city") == 0

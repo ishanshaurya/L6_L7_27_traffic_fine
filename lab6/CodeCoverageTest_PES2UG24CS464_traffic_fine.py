@@ -1,6 +1,10 @@
 import pytest
 from traffic_fine import speeding_fine, license_action, total_penalty
 
+# Lab 6 - Code (Line) Coverage test cases
+# SRN: PES2UG24CS464 Name: SHAURYA ISHAN
+# Goal: execute every line of traffic_fine.py at least once.
+
 
 def test_no_speeding():
     assert speeding_fine(50, 60, "city") == 0
